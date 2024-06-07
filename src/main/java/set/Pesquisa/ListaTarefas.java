@@ -89,7 +89,7 @@ public class ListaTarefas {
         System.out.println(listaTarefas.obterTarefasConcluidas());
         listaTarefas.marcarTarefaPendente("Botar chá");
         listaTarefas.exibirTarefas();
-        listaTarefas.limparListaTarefas();
+        listaTarefas.marcarTarefaConcluida("Botar chá");
         listaTarefas.exibirTarefas();
     }
 }
